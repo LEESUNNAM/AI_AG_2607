@@ -1,0 +1,290 @@
+그래픽카드(GPU) 시장조사 보고서
+2026년 최신 동향 분석
+
+작성일: 2026년 8월 3일
+문서 구분: 내부 보고용
+예상 독자: 교수님
+
+====================================================================
+
+[개요]
+
+본 보고서는 2026년을 기준으로 한 그래픽처리장치(GPU) 시장의 최신
+동향을 조사·정리한 내부 보고 자료이다. 인공지능(AI) 및 데이터센터
+수요 급증, 메모리(HBM4·GDDR7) 공급 부족, 소비자용 게이밍 GPU 가격
+상승, 커스텀 ASIC의 부상 등 2026년 GPU 시장을 관통하는 핵심 이슈를
+중심으로 조사하였으며, 시장 규모 전망과 주요 기업(NVIDIA, AMD,
+Intel)의 동향을 함께 다룬다.
+
+[목차]
+
+1. 서론
+2. 시장 규모 및 성장 전망
+3. 주요 기업 동향
+   3.1 NVIDIA
+   3.2 AMD
+   3.3 Intel
+4. AI·데이터센터용 GPU 수요와 메모리 이슈
+5. 소비자(게이밍)용 GPU 가격 및 공급 동향
+6. 커스텀 ASIC의 부상과 경쟁 구도 변화
+7. 종합 시사점 및 전망
+8. 참고자료(출처)
+
+====================================================================
+
+1. 서론
+
+그래픽카드(GPU) 시장은 전통적인 게이밍·그래픽 처리 수요를 넘어,
+생성형 AI(Generative AI)의 학습(training) 및 추론(inference)
+연산을 위한 핵심 인프라로 그 역할이 확대되고 있다. 2026년 현재
+GPU 시장은 AI 데이터센터向 수요가 시장 성장을 견인하는 한편,
+이로 인한 메모리 반도체(HBM, GDDR) 공급 부족이 소비자용 게이밍
+GPU 가격 상승으로까지 이어지는 특이한 구조적 현상이 관찰되고
+있다. 본 보고서는 이러한 2026년의 최신 트렌드를 종합적으로
+조사·분석한다.
+
+--------------------------------------------------------------------
+
+2. 시장 규모 및 성장 전망
+
+- 전체 그래픽카드 시장은 2025년 약 1,429억 달러(USD 142.9 Bn)
+  규모로 평가되었으며, 2035년까지 연평균 성장률(CAGR) 12.1%로
+  성장하여 약 4,487억 달러(USD 448.7 Bn) 규모에 이를 것으로
+  전망된다.
+
+- AI 데이터센터용 GPU 시장은 2025년 약 365.6억 달러에서 2026년
+  약 450.4억 달러 규모로 성장할 것으로 예상되며, 조사기관에 따라
+  2026년 수요를 1,128.5억 달러(전년 대비 +14.1%) 수준으로 보는
+  전망치도 존재한다.
+
+- 데이터센터 GPU 시장은 2026년 약 1,388.8억 달러에서 2034년
+  6,241.7억 달러로, CAGR 20.7% 수준의 고성장이 예상된다. 장기적
+  으로는 2025년 약 216억 달러에서 2035년 2,655억 달러(CAGR
+  28.5%)까지 성장할 것이라는 전망도 제시된다.
+
+- 주요 빅테크(하이퍼스케일러) 기업들은 2026년 설비투자(CapEx)로
+  6,000억 달러 이상을 지출할 것으로 예상되며(전년 대비 +36%),
+  이 중 약 4,500억 달러가 AI 인프라(GPU 포함)에 투입될 전망이다.
+
+※ 조사기관별로 시장 규모 추정치에 상당한 편차가 존재하므로,
+  수치는 트렌드 파악을 위한 참고 자료로 활용할 것을 권장한다.
+
+--------------------------------------------------------------------
+
+3. 주요 기업 동향
+
+3.1 NVIDIA
+
+- NVIDIA는 2026년 GPU 시장에서 약 92%의 압도적 점유율을
+  유지하고 있으며, 특히 AI·게이밍 분야에서 지배적 지위를
+  이어가고 있다. AI 가속기(AI accelerator) 시장에서의 매출
+  점유율은 분석기관에 따라 70~86% 수준으로 추정되는데, 이는
+  정점 대비 다소 하락한 수치로 해석된다.
+
+- 차세대 아키텍처 'Vera Rubin'을 통해 HBM4 메모리(288GB)와
+  50 PFLOPS(FP4) 수준의 연산 성능을 앞세워 AI 학습·추론 시장
+  대응을 강화하고 있으며, 칩-투-칩 상호연결 및 네트워킹 기능의
+  온패키지 통합을 확대하는 방향으로 전개되고 있다.
+
+- 다만 일부 분석기관은 커스텀 ASIC의 부상으로 NVIDIA의 추론
+  시장 점유율이 2028년까지 90%대에서 20~30%대로 하락할 수
+  있다고 전망하고 있어, 중장기 경쟁 심화 가능성이 제기된다.
+
+- 소비자용 GeForce RTX 50 시리즈의 경우, 2026년이 약 30년
+  만에 신규 게이밍 GPU 세대 출시가 없는 해가 될 것이라는
+  보도가 있으며, 차세대 RTX 60 시리즈는 당초 2027년 말에서
+  2028년으로 양산 일정이 지연된 것으로 알려졌다.
+
+3.2 AMD
+
+- AMD는 데이터센터 부문에서 분기 매출 58억 달러를 기록하며
+  NVIDIA에 대한 신뢰할 수 있는 2위 공급자(credible second
+  source)로 자리매김하고 있다. Meta 및 OpenAI와 각각 6기가와트
+  (6GW) 규모의 공급 계약을 체결한 것으로 알려졌다.
+
+- 차세대 아키텍처 RDNA 5(UDNA)는 레이 트레이싱 가속기(Ray
+  Accelerator)를 대폭 재설계하여 고정기능 하드웨어 비중을
+  높이는 방향으로 개발 중이나, 보드 파트너사에 따르면 실제
+  출시 시점은 2027년 하반기~2028년 초로 예상되어 당초
+  기대보다 지연되는 분위기이다.
+
+3.3 Intel
+
+- Intel은 AI GPU 시장에서는 아직 미미한(rounding error) 수준의
+  존재감을 보이고 있으나, Arc 브랜드의 디스크리트 GPU 라인업을
+  게이밍·AI 콘텐츠 제작·워크스테이션 시장으로 확장하며 반등을
+  준비하고 있다.
+
+- 다만 차세대 게이밍 GPU로 기대되었던 Xe3P 'Celestial'의
+  디스크리트 버전은 사실상 취소된 것으로 알려져, 현재로서는
+  Xe2 'Battlemage'가 최신 세대로 남아있는 상황이며, 향후 Arc
+  로드맵의 불확실성이 지속되고 있다.
+
+--------------------------------------------------------------------
+
+4. AI·데이터센터용 GPU 수요와 메모리 이슈
+
+- 생성형 AI 확산에 따라 데이터센터向 GPU 수요가 폭발적으로
+  증가하면서, GPU 성능을 좌우하는 고대역폭 메모리(HBM) 수급이
+  2026년 GPU 산업의 핵심 병목으로 부상하였다.
+
+- IDC 등 분석기관은 AI 데이터센터가 2026년 전 세계 메모리
+  생산량의 최대 70%를 소비할 수 있다고 전망하고 있으며, 이는
+  2022년의 20~30% 수준에서 크게 확대된 수치이다.
+
+- 이러한 메모리 자원의 AI向 쏠림 현상은 소비자용 GDDR6/GDDR7
+  메모리 공급 부족으로 직결되어, 게이밍 GPU 가격 상승의
+  핵심 원인으로 작용하고 있다(5장 참조).
+
+--------------------------------------------------------------------
+
+5. 소비자(게이밍)용 GPU 가격 및 공급 동향
+
+- 2026년 GeForce RTX 50 시리즈는 메모리(GDDR7) 가격 급등의
+  영향으로 연내 세 번째 가격 인상 가능성이 제기되고 있으며,
+  추가로 20~30% 수준의 가격 인상이 전망되고 있다. 일부 보도에
+  따르면 플래그십 모델(RTX 5090)의 가격이 4,300달러를
+  상회하기도 하였다.
+
+- VRAM 원가는 이제 고성능 그래픽카드 제조 원가의 80% 이상을
+  차지할 정도로 비중이 커졌으며, 이는 GDDR7이 소비자용 메모리
+  중 가장 공급이 타이트한 품목으로 부상했기 때문이다.
+
+- NVIDIA는 RTX 50 시리즈 생산량을 파트너사向 최대 20~40%
+  수준까지 감산한 것으로 알려졌으며, 2025년 말 이후 글로벌
+  가격은 약 19~20% 상승하였다. 이에 따라 소비자용 GPU 시장
+  자체가 10~20% 위축될 것이라는 전망도 제기된다.
+
+- 이러한 공급 축소와 가격 인상의 여파로, 2026년은 신규 게이밍
+  GPU 세대(RTX 60 시리즈 등)의 공백기로 평가되고 있다.
+
+--------------------------------------------------------------------
+
+6. 커스텀 ASIC의 부상과 경쟁 구도 변화
+
+- Google(TPU v7 Ironwood), Microsoft(Maia 200), Amazon
+  (Trainium 3), Meta(MTIA) 등 주요 하이퍼스케일러들이 자체
+  설계한 커스텀 AI 반도체(ASIC)를 확대 도입하고 있으며, 커스텀
+  ASIC 출하량은 전년 대비 44.6% 성장하여 범용 GPU의 성장률
+  (16.1%)을 크게 상회하고 있다.
+
+- TrendForce에 따르면 2026년 AI 서버 출하량 기준 ASIC 비중은
+  약 27%, GPU 비중은 약 69.7% 수준이며, ASIC 비중은 2030년까지
+  약 40%로 확대될 것으로 전망된다.
+
+- 이는 예측 가능하고 대규모인 추론(inference) 워크로드에는
+  커스텀 ASIC을, 유연성이 요구되는 학습(training) 및 실험적
+  워크로드에는 NVIDIA GPU를 병행 사용하는 '이원화 전략(dual-
+  track strategy)'이 업계의 실용적 대응으로 자리잡고 있음을
+  시사한다.
+
+--------------------------------------------------------------------
+
+7. 종합 시사점 및 전망
+
+- 2026년 GPU 시장은 'AI 데이터센터 수요 초강세'와 '소비자용
+  게이밍 시장 위축'이라는 이중적 구조를 보이고 있다. 특히
+  메모리 반도체 공급이 AI向으로 쏠리면서, 게이밍용 GPU 가격
+  상승 및 신제품 공백이라는 부작용이 발생하고 있다는 점이
+  주목할 만하다.
+
+- NVIDIA의 시장 지배력은 여전히 압도적이나, AMD의 데이터센터
+  부문 성장과 하이퍼스케일러들의 커스텀 ASIC 확대는 중장기적
+  으로 NVIDIA의 점유율에 유의미한 도전 요인이 될 수 있다.
+
+- Intel은 아직 AI GPU 시장에서 존재감이 미미하나, Arc 브랜드를
+  통한 반등을 모색하고 있어 향후 추이를 지속 관찰할 필요가
+  있다.
+
+- 결론적으로, 향후 GPU 산업 및 관련 반도체(메모리) 공급망
+  분석 시에는 AI 인프라 투자 동향과 소비자 시장 동향을 분리
+  하여 접근할 필요가 있으며, HBM4 등 차세대 메모리 기술의
+  공급 확대 여부가 2027~2028년 시장 구도를 좌우하는 핵심
+  변수가 될 것으로 판단된다.
+
+--------------------------------------------------------------------
+
+8. 참고자료(출처)
+
+1) Accio, "Top Selling Graphics Cards 2025-2026: GPU Market Trends"
+   https://www.accio.com/business/top-selling-graphics-cards
+
+2) SNS Insider, "Graphics Card Market Size, Share & Growth, 2026-2035"
+   https://www.snsinsider.com/reports/graphics-card-market-6637
+
+3) Commandlinux, "AI GPU Market Share NVIDIA vs AMD vs Intel: 2026
+   Statistics"
+   https://commandlinux.com/statistics/ai-gpu-market-share-nvidia-vs-amd-vs-intel/
+
+4) Mordor Intelligence, "Graphics Processing Unit (GPU) Market Size,
+   Trends, Share & Industry Report 2031"
+   https://www.mordorintelligence.com/industry-reports/graphics-processing-unit-market
+
+5) TechGPU, "GPU Price Watch 2026: Nvidia, AMD & Intel Card Deals &
+   Trends"
+   https://techgpu.net/gpu-price-watch-2026-nvidia-amd-intel-card-deals-trends/
+
+6) Business Wire / ResearchAndMarkets, "237.5 Bn Graphics Processing
+   Unit GPU Markets 2025-2030"
+   https://www.businesswire.com/news/home/20250619747935/en/237.5-Bn-Graphics-Processing-Unit-GPU-Markets-2025-2030-with-NVIDIA-Intel-Corporation-and-AMD-Dominating---ResearchAndMarkets.com
+
+7) CarbonCredits, "AI Demand to Drive $600B From the Big Five for GPU
+   and Data Center Boom by 2026"
+   https://carboncredits.com/ai-demand-to-drive-600b-from-the-big-five-for-gpu-and-data-center-boom-by-2026/
+
+8) Mordor Intelligence, "AI Data Center GPU Market Size, Share & 2031
+   Growth Trends Report"
+   https://www.mordorintelligence.com/industry-reports/ai-data-center-gpu-market
+
+9) StratView Research, "Data Center GPU Market Size, Share & Growth |
+   2026-2034"
+   https://www.stratviewresearch.com/market-reports/data-center-gpu-market
+
+10) ThinkComputers, "GeForce RTX 50 Prices Could Jump Another 30% as
+    Memory Crunch Deepens"
+    https://thinkcomputers.org/geforce-rtx-50-prices-could-jump-another-30-as-memory-crunch-deepens
+
+11) Tech Times, "GPU Memory Crisis Prices RTX 5090 Above $4,300 as
+    Nvidia Offers Paper Cards"
+    https://www.techtimes.com/articles/320169/20260711/gpu-memory-crisis-prices-rtx-5090-above-4300-nvidia-offers-paper-cards.htm
+
+12) Tech Times, "NVIDIA RTX 50 GPU Shortage: Supply Cut 20%, Prices
+    Climbing, No Desktop Refresh Confirmed"
+    https://www.techtimes.com/articles/318772/20260621/nvidia-rtx-50-gpu-shortage-supply-cut-20-prices-climbing-no-desktop-refresh-confirmed.htm
+
+13) TechPowerUp, "NVIDIA RTX 50-Series GPUs Could See Another 20-30%
+    Price Hike in 2026"
+    https://www.techpowerup.com/351234/nvidia-rtx-50-series-gpus-could-see-another-20-30-price-hike-in-2026
+
+14) PC Game Check, "Why GPU Prices Are Climbing Again in 2026: The
+    Memory Shortage Explained"
+    https://pcgamecheck.com/blog/why-gpus-expensive-2026-memory-shortage-explained
+
+15) PCGamesHardware, "New Graphics Cards: What the Rumors Reveal
+    About RDNA 5, RTX 50 Super, and Arc"
+    https://www.pcgameshardware.de/Grafikkarten-Grafikkarte-97980/News/GPU-Rumors-RDNA-5-RTX-50-Super-Intel-Arc-Analysis-1545000/
+
+16) Evezone/EveTech, "RDNA 5 Preview: AMD 2026 GPU Roadmap Explained"
+    https://evezone.evetech.co.za/launch-radar/rdna-5-preview-2026-gpu-roadmap
+
+17) Tom's Hardware, "Desktop GPU roadmap: Nvidia Rubin, AMD UDNA &
+    Intel Xe3 Celestial"
+    https://www.tomshardware.com/pc-components/gpus/desktop-gpu-roadmap-nvidia-rubin-amd-udna-and-intel-xe3-celestial
+
+18) Notebookcheck, "AMD RDNA 5 GPUs reportedly taped out on TSMC N3P,
+    mid-2027 launch hinted"
+    https://www.notebookcheck.net/AMD-RDNA-5-GPUs-reportedly-taped-out-on-TSMC-N3P-mid-2027-launch-hinted.1192698.0.html
+
+19) Spheron Network, "Hyperscaler Custom AI Chips in 2026: Trainium
+    3, Google TPU, Maia 200, and Meta MTIA vs NVIDIA GPU"
+    https://www.spheron.network/blog/hyperscaler-custom-ai-chips-2026-trainium-tpu-maia-mtia-vs-nvidia-gpu/
+
+20) Introl, "Custom Silicon Inflection 2026"
+    https://introl.com/blog/custom-silicon-inflection-2026-hyperscaler-asics-nvidia-gpu
+
+21) Oplexa, "Custom ASIC Market 2026: Why Hyperscalers Are Ditching
+    NVIDIA"
+    https://oplexa.com/custom-asic-market-2026-hyperscalers-ditching-nvidia/
+
+====================================================================
+(이하 여백)
