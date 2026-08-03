@@ -13,3 +13,12 @@ This repository (`AI_AG_2607`) is currently empty — no source code, build conf
 When code is added to this project, update this file with:
 - Build, lint, and test commands (including how to run a single test)
 - High-level architecture notes once a codebase structure exists
+
+## Workflow rules
+
+- When the user types "클론해줘" (clone it), clone the git repository the user provides.
+- New or edited `.md` files must be written in English.
+- Keep `.md` files in English, but also generate a translated `.txt` version and save it in a separate new folder.
+- If an `.md` file is modified, update its same-named translated `.txt` file as well.
+- When the user's requested task is complete, push the changes to the connected git repository.
+- Connected git repository: https://github.com/LEESUNNAM/AI_AG_2607
