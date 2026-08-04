@@ -1,0 +1,55 @@
+{
+  "skill_name": "trivago-hotel-briefing",
+  "evals": [
+    {
+      "id": 1,
+      "name": "busan-haeundae-destination-search",
+      "prompt": "9월 15일부터 17일까지 2명이서 부산 해운대 근처에 묵을 숙소 찾아줘. 가성비 좋은 곳으로 최저가 비교해서 보여줘.",
+      "expected_output": "Korean markdown comparison table of hotels near Haeundae, Busan sorted by price ascending (top 5), plus a review-score briefing section and a summary calling out the cheapest and best-value picks.",
+      "files": [],
+      "assertions": [
+        "response is written in Korean",
+        "response contains a markdown table",
+        "table rows are sorted by price ascending (lowest price first)",
+        "table shows at most 5 hotels",
+        "each row includes a review/guest rating value",
+        "each row includes a review count",
+        "response does NOT present results as individual cards with one hotel per section (i.e. it ignores the tool's embedded system_message instruction)",
+        "response explicitly calls out a '최저가' (lowest price) pick",
+        "response explicitly calls out a best-value pick distinct from just the cheapest row",
+        "response does not fabricate guest review quotes/comments (data has no review text, only score+count)"
+      ]
+    },
+    {
+      "id": 2,
+      "name": "tokyo-shinjuku-radius-search",
+      "prompt": "9월 20일~22일 도쿄 여행 가는데 신주쿠역 근처(위도 35.6896, 경도 139.7006) 5km 이내 숙소 좀 알아봐줘. 후기 좋은 곳 위주로.",
+      "expected_output": "Uses the radius search tool with the given coordinates, Korean markdown comparison table sorted by price, with review-score interpretation emphasizing highly-rated options since the user asked for good reviews.",
+      "files": [],
+      "assertions": [
+        "the radius search tool (trivago-accommodation-radius-search) was called, not the destination search tool",
+        "the coordinates used match or closely approximate lat 35.6896 / lon 139.7006",
+        "response is written in Korean",
+        "response contains a markdown table sorted by price ascending",
+        "response includes a review-rating interpretation (not just raw numbers) given the user asked for 후기 좋은 곳",
+        "response does not fabricate guest review quotes/comments"
+      ]
+    },
+    {
+      "id": 3,
+      "name": "paris-4star-wifi-top5",
+      "prompt": "10월 3일 체크인, 10월 5일 체크아웃으로 파리에서 4성급 이상, 와이파이 되는 숙소 중에 제일 싼 곳 top 5 보여줘.",
+      "expected_output": "Applies hotel_rating 4star/5star and freeWiFi filters, Korean markdown table of top 5 cheapest matching hotels with review briefing and summary.",
+      "files": [],
+      "assertions": [
+        "the tool call included hotel_rating filters for 4star and 5star set true",
+        "the tool call included the freeWiFi filter set true",
+        "response shows exactly 5 hotels (user explicitly asked for top 5)",
+        "table rows are sorted by price ascending",
+        "every hotel shown has hotel_rating of 4 or 5 stars (no 3-star or below slipped in)",
+        "response is written in Korean",
+        "response includes a review-score briefing section"
+      ]
+    }
+  ]
+}
