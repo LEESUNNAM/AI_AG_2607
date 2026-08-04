@@ -1,0 +1,60 @@
+# Trivago MCP — 사용 가능한 기능
+
+이 문서는 현재 환경에서 사용 가능한 Trivago MCP(Model Context Protocol) 서버가 제공하는 기능을 설명합니다. 트리바고를 통해 숙소를 검색할 수 있는 두 가지 도구를 제공합니다.
+
+## 개요
+
+| 도구 | 목적 |
+|---|---|
+| `trivago-accommodation-search` | 목적지명 또는 관심 지점(예: 도시, 지역, 랜드마크명)으로 숙소를 검색합니다. |
+| `trivago-accommodation-radius-search` | 위도/경도 좌표를 이용해 특정 지점 주변의 숙소를 검색합니다. |
+
+두 도구 모두 검색 조건과 필터에 따라 가격, 예약 가능 여부, 메타데이터가 포함된 숙소 목록을 반환합니다.
+
+## 1. 목적지 검색 — `trivago-accommodation-search`
+
+자유 텍스트 형태의 목적지 또는 관심 지점(예: "파리", "뉴욕 타임스퀘어", "서울 강남")으로 숙소를 검색합니다.
+
+### 필수 파라미터
+- `query` — 목적지 또는 관심 지점 (문자열).
+- `arrival` — 체크인 날짜, `YYYY-MM-DD` 형식. 반드시 미래 날짜여야 하며 `departure`보다 이전이어야 합니다.
+- `departure` — 체크아웃 날짜, `YYYY-MM-DD` 형식. 반드시 `arrival`보다 이후여야 합니다.
+
+### 선택 파라미터
+- `adults` — 성인 인원 수 (최소 1명).
+- `children` — 아동 인원 수 (최소 0명).
+- `children_ages` — 하이픈으로 구분한 아동 나이 목록 (예: `10-12-14`).
+- `rooms` — 객실 수 (성인 인원 수 이하여야 함).
+- `country` — 가격 및 콘텐츠에 사용되는 ISO 알파-2 국가 코드 (기본값 `US`).
+- `currency` — ISO 4217 통화 코드 (기본값 `USD`).
+- `language` — 콘텐츠 언어 코드 (기본값 `EN_US`).
+- `hotel_rating` — 호텔 성급 필터: `1star`부터 `5star`까지 (불리언, 복수 선택 가능).
+- `review_rating` — 게스트 평점 필터: `rating70`, `rating75`, `rating80`, `rating85`.
+- `filters` — 편의시설 필터 (모두 불리언): `airConditioning`, `breakfastIncluded`, `freeCancellation`, `freeWiFi`, `gym`, `kitchen`, `parking`, `petFriendly`, `pool`, `spa`.
+
+## 2. 반경 검색 — `trivago-accommodation-radius-search`
+
+좌표를 이용해 특정 지리적 위치 주변의 숙소를 검색합니다. 명명된 목적지 대신 정확한 랜드마크나 주소 주변을 검색할 때 유용합니다.
+
+### 필수 파라미터
+- `latitude` — 대상 위치의 위도.
+- `longitude` — 대상 위치의 경도.
+- `arrival` — 체크인 날짜, `YYYY-MM-DD` 형식. 반드시 미래 날짜여야 하며 `departure`보다 이전이어야 합니다.
+- `departure` — 체크아웃 날짜, `YYYY-MM-DD` 형식. 반드시 `arrival`보다 이후여야 합니다.
+
+### 선택 파라미터
+목적지 검색 도구와 동일: `adults`, `children`, `children_ages`, `rooms`, `country`, `currency`, `language`, `hotel_rating`, `review_rating`, `filters`.
+
+## 주요 활용 사례
+
+- 특정 여행 날짜에 특정 도시나 동네의 호텔을 찾습니다.
+- 랜드마크, 행사장, 주소(예: 컨퍼런스 센터나 공항 인근) 반경 내 호텔을 찾습니다.
+- 성급, 게스트 평점, 편의시설(와이파이, 조식, 수영장, 반려동물 동반 가능 등)로 결과를 필터링합니다.
+- 국가, 통화, 언어를 지정하여 시장별 가격 및 콘텐츠를 조회합니다.
+- 성인, 아동(나이 포함), 객실 수를 지정하여 단체 여행을 계획합니다.
+
+## 참고 사항 / 제약 조건
+
+- 날짜는 `YYYY-MM-DD` 형식이어야 하며, `arrival`은 반드시 미래 날짜이면서 `departure`보다 앞서야 합니다.
+- `rooms`는 `adults` 수를 초과할 수 없습니다.
+- 목적지를 이름으로 표현할 수 있는 경우 `trivago-accommodation-search`를 사용하고, 정확한 좌표를 알고 있어 특정 지점 기준 반경 검색이 필요한 경우 `trivago-accommodation-radius-search`를 사용합니다.
