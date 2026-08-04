@@ -61,6 +61,7 @@ Cross this with `review_count`: a high score backed by hundreds/thousands of rev
 
 ## Edge cases
 
+- Destination search returns nothing usable (empty list, or a single result with blank price/rating fields): don't report failure. Look up coordinates for the named place and retry with `trivago-accommodation-radius-search` instead — this is often more reliable for neighborhoods/landmarks that aren't recognized as a standalone destination.
 - No results / all results outside a reasonable price range: say so plainly, suggest loosening filters or trying `trivago-accommodation-radius-search` with a wider net, rather than presenting an empty or misleading table.
 - User asks to compare across multiple destinations: run the search once per destination and either present separate tables or merge into one table with a "도시" column — ask if unclear which they'd prefer for more than 2 destinations.
 - User only wants the single cheapest hotel: skip the table, just answer directly with that one hotel's key details.
