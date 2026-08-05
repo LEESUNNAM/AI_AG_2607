@@ -3,43 +3,45 @@
   "evals": [
     {
       "id": 1,
-      "name": "new-instagram-post-design",
-      "prompt": "우리 카페 신메뉴(딸기라떼) 홍보용 인스타그램 게시물 캔바로 하나 만들어줘. 핑크톤으로, '신메뉴 출시'라는 문구 넣어서.",
-      "expected_output": "Calls generate-design with a brief built from the stated purpose (Instagram post), color (pink tones), and copy ('신메뉴 출시'), presents the returned candidates to the user for selection rather than auto-picking one, and only calls create-design-from-candidate after the user chooses (or explicitly says to auto-pick).",
+      "name": "gate1-concept-approval-required",
+      "prompt": "AI도구 라는 주제로 캔바 디자인 하나 만들어줘.",
+      "expected_output": "Proposes at least 3 distinct design concepts (color/tone, layout, overall impression) for the topic without calling any Canva MCP tool, then explicitly asks the user to approve or pick one before proceeding further.",
       "files": [],
       "assertions": [
-        "generate-design is called before create-design-from-candidate",
-        "the brief passed to generate-design reflects Instagram post format, pink color tone, and the '신메뉴 출시' text",
-        "response presents multiple candidates to the user and asks them to pick, rather than silently calling create-design-from-candidate for an auto-chosen candidate",
-        "response does not invent brand details (e.g. a logo, tagline, or price) that the user did not mention",
+        "no Canva MCP tool (generate-design, create-design-from-candidate, etc.) is called in this turn",
+        "at least 3 distinct concept options are presented",
+        "each concept describes a color/tone AND a layout/style direction, not just a single adjective",
+        "the concepts are meaningfully different from each other, not minor variations of one idea",
+        "response ends by asking the user to approve or choose a concept rather than proceeding on its own",
         "response is in Korean"
       ]
     },
     {
       "id": 2,
-      "name": "edit-existing-design-headline",
-      "prompt": "지난주에 만든 '가을 세일' 포스터 있잖아, 거기 제목을 '가을맞이 특가전'으로 바꿔줘.",
-      "expected_output": "Uses search-designs to locate the '가을 세일' design, opens an editing transaction, changes the headline text via perform-editing-operations, and commits the transaction. Summarizes the change before or after committing.",
+      "name": "gate3-output-format-confirmation",
+      "prompt": "신메뉴 홍보 라는 주제로 캔바 디자인 만들어줘. 컨셉은 방금 제안해준 것 중에 미니멀하고 밝은 톤으로 가는 걸로 승인할게.",
+      "expected_output": "Since the concept is approved but the desired output format (poster, Instagram post, presentation, etc.) was never specified, the skill asks which format the user wants before calling generate-design.",
       "files": [],
       "assertions": [
-        "search-designs is called with a keyword derived from '가을 세일'",
-        "start-editing-transaction is called before perform-editing-operations",
-        "commit-editing-transaction is called (edit is not left uncommitted)",
-        "the edit changes only the headline text to '가을맞이 특가전', not unrelated design elements",
-        "if search-designs returns no match, the skill asks the user to describe the design differently instead of silently creating a new design or reporting failure with no next step"
+        "generate-design is NOT called before the output format is confirmed",
+        "response explicitly asks what kind of output (poster/Instagram post/presentation/flyer/etc.) the user wants",
+        "response does not silently assume a format",
+        "response is in Korean"
       ]
     },
     {
       "id": 3,
-      "name": "export-format-not-specified",
-      "prompt": "아까 만든 발표자료 디자인 내보내줘.",
-      "expected_output": "Since the export format wasn't specified for a presentation design, the skill asks which format the user wants (e.g. PDF vs PPTX vs PNG per-slide) rather than silently defaulting, then calls export-design once the format is known.",
+      "name": "gate5-export-format-check-and-folder-reuse",
+      "prompt": "아까 만든 '가을 세일' 주제 포스터 초안(디자인 ID: DABCexample123) 확인했어, 이대로 최종 저장 진행해줘. 참고로 canva 폴더는 이미 있고 그 안에 '가을 세일' 폴더도 이미 있어.",
+      "expected_output": "Before exporting, calls get-export-formats to confirm PNG is supported for this design. Then calls export-design with format png, reuses the existing canva/가을 세일 folder instead of creating a duplicate, and moves the design into it via move-item-to-folder. Final response includes the PNG download link (with an expiry note) and the folder link.",
       "files": [],
       "assertions": [
-        "response asks the user for the desired export format before calling export-design",
-        "response does not silently default to a format without confirming",
-        "once a format is given (in a follow-up), export-design is called with that format",
-        "response shares the resulting file/link with the user rather than only confirming success"
+        "get-export-formats is called before export-design",
+        "export-design is called with format.type set to png",
+        "the skill does not create a new 'canva' or '가을 세일' folder given the user stated they already exist — it looks them up (search-folders/list-folder-items) and reuses them rather than duplicating",
+        "move-item-to-folder is called to file the design under the existing 가을 세일 folder",
+        "final response includes the PNG download link and mentions the link is time-limited/expires",
+        "response is in Korean"
       ]
     }
   ]
