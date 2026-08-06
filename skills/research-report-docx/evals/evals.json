@@ -1,0 +1,23 @@
+{
+  "skill_name": "research-report-docx",
+  "evals": [
+    {
+      "id": 1,
+      "prompt": "2026년 하반기 국내 전기차 배터리 시장 동향 조사해서 보고서로 정리해줘",
+      "expected_output": "research/ 폴더에 저장된 .docx 보고서 — 표지/메타데이터, 개요, 목차, 번호가 매겨진 다수 섹션, 실제 출처가 달린 참고자료 섹션 포함. 배터리 관련 최신 동향(가격, 주요 기업, 기술 트렌드)을 다룸.",
+      "files": []
+    },
+    {
+      "id": 2,
+      "prompt": "AI 코딩 어시스턴트 툴들(Claude Code, Cursor, GitHub Copilot 등) 비교 리서치해서 워드 파일로 줘",
+      "expected_output": "각 툴을 비교하는 섹션(가능하면 표 활용)이 포함된 .docx 보고서, 참고자료에 각 툴의 공식/신뢰 가능한 출처 링크 포함.",
+      "files": []
+    },
+    {
+      "id": 3,
+      "prompt": "GPU 보고서(research/GPU_시장조사_보고서_2026.docx)랑 같은 스타일로 이번엔 반도체 파운드리 시장 조사해줘",
+      "expected_output": "GPU 보고서와 동일한 구조(표지/개요/목차/번호섹션/참고자료)를 따르는 파운드리 시장 관련 .docx 보고서.",
+      "files": []
+    }
+  ]
+}

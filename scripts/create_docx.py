@@ -71,6 +71,35 @@ def _shade_cell(cell, hex_color: str):
     cell._element.get_or_add_tcPr().append(shd)
 
 
+def _add_hyperlink(paragraph, url: str, text: str, font_name: str, size_pt: float):
+    part = paragraph.part
+    r_id = part.relate_to(
+        url, "http://schemas.openxmlformats.org/officeDocument/2006/relationships/hyperlink", is_external=True
+    )
+    hyperlink = OxmlElement("w:hyperlink")
+    hyperlink.set(qn("r:id"), r_id)
+    run_element = OxmlElement("w:r")
+    rpr = OxmlElement("w:rPr")
+    rfonts = OxmlElement("w:rFonts")
+    rfonts.set(qn("w:eastAsia"), font_name)
+    rpr.append(rfonts)
+    color = OxmlElement("w:color")
+    color.set(qn("w:val"), "0563C1")
+    rpr.append(color)
+    underline = OxmlElement("w:u")
+    underline.set(qn("w:val"), "single")
+    rpr.append(underline)
+    sz = OxmlElement("w:sz")
+    sz.set(qn("w:val"), str(int(size_pt * 2)))
+    rpr.append(sz)
+    run_element.append(rpr)
+    text_element = OxmlElement("w:t")
+    text_element.text = text
+    run_element.append(text_element)
+    hyperlink.append(run_element)
+    paragraph._p.append(hyperlink)
+
+
 class DocBuilder:
     def __init__(
         self,
@@ -105,6 +134,46 @@ class DocBuilder:
         paragraph.alignment = WD_ALIGN_PARAGRAPH.CENTER
         run = paragraph.add_run(text)
         _apply_font(run, self.font_name, self.title_size, color=self.main_color, bold=True)
+        return self
+
+    def add_subtitle(self, text: str, size: float | None = None, color: str | RGBColor | None = None):
+        paragraph = self.document.add_paragraph()
+        paragraph.alignment = WD_ALIGN_PARAGRAPH.CENTER
+        run = paragraph.add_run(text)
+        _apply_font(
+            run,
+            self.font_name,
+            size or HEADING_SIZES.get(2, self.body_size),
+            color=_parse_color(color) if color else self.main_color,
+            bold=False,
+        )
+        return self
+
+    def add_metadata(self, lines: list[str], size: float = 12):
+        """Small centered info lines under the title, e.g. author/date/audience."""
+        for line in lines:
+            paragraph = self.document.add_paragraph()
+            paragraph.alignment = WD_ALIGN_PARAGRAPH.CENTER
+            run = paragraph.add_run(line)
+            _apply_font(run, self.font_name, size, color=RGBColor(0x59, 0x59, 0x59))
+        return self
+
+    def add_divider(self, char: str = "=", length: int = 70):
+        paragraph = self.document.add_paragraph()
+        run = paragraph.add_run(char * length)
+        _apply_font(run, self.font_name, 10, color=RGBColor(0xAA, 0xAA, 0xAA))
+        return self
+
+    def add_references(self, items: list[tuple[str, str]], heading: str = "참고자료"):
+        """items: list of (source_title, url) pairs, rendered as a numbered,
+        clickable list — matches the report's own font/size for consistency."""
+        self.add_heading(heading, level=1)
+        for i, (source_title, url) in enumerate(items, start=1):
+            paragraph = self.document.add_paragraph()
+            run = paragraph.add_run(f"{i}) {source_title}")
+            _apply_font(run, self.font_name, self.body_size * 0.7)
+            link_paragraph = self.document.add_paragraph()
+            _add_hyperlink(link_paragraph, url, url, self.font_name, self.body_size * 0.7)
         return self
 
     def add_heading(self, text: str, level: int = 1, color: str | RGBColor | None = None, size: float | None = None):
