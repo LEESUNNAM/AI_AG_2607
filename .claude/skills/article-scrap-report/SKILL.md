@@ -13,12 +13,14 @@ A screenshot alone documents that an article existed and what it looked like, bu
 
 ## 1. Pin down what to scrape
 
-This skill is site-agnostic — don't assume a fixed source. Figure out the target from the request or the conversation:
+**Source is restricted to Naver News.** Only scrape articles hosted on Naver News (`news.naver.com` / `n.news.naver.com`, including Naver News search and section pages used to reach an article). Figure out the target from the request or the conversation:
 
-- If the user gives a URL or names a site/section, navigate there directly.
-- If the user is already mid-session on an article (e.g. they just had you browse to it with Playwright MCP), use that page — don't re-navigate from scratch.
-- If they want multiple articles (a topic, a list, "이 5개 기사"), scrape each one in turn; keep the list explicit so nothing gets dropped when you move to the analysis stage.
-- If the target is genuinely ambiguous (no URL, no site named, no prior browsing in this session), ask rather than guessing a site.
+- If the user gives a Naver News URL, navigate there directly.
+- If the user names a topic or outlet without a URL, search for it on Naver News (`https://news.naver.com`) and use the Naver News version of the article, not the outlet's own site.
+- If the user gives a URL from a non-Naver-News site, or asks for a different source, tell them this skill only scrapes Naver News and ask for a Naver News link or search term instead — don't substitute or scrape the other site.
+- If the user is already mid-session on a Naver News article (e.g. they just had you browse to it with Playwright MCP), use that page — don't re-navigate from scratch.
+- If they want multiple articles (a topic, a list, "이 5개 기사"), scrape each one in turn, confirming each is a Naver News page; keep the list explicit so nothing gets dropped when you move to the analysis stage.
+- If the target is genuinely ambiguous (no URL, no topic named, no prior browsing in this session), ask rather than guessing.
 
 Also confirm — if not already obvious from the request — which deliverable(s) they want: **just the scrape/screenshots**, a **docx report**, a **pptx deck**, or both. Don't build a deliverable nobody asked for; it's wasted work and something to review that wasn't wanted.
 
@@ -107,6 +109,7 @@ After saving, tell the user in chat: which files were produced and their paths, 
 ## Edge cases
 
 - **Paywalled or login-required article**: say so and ask whether to proceed with what's visible (headline/summary only) or skip it — don't attempt to bypass a login wall.
+- **User asks to scrape a non-Naver-News site**: don't navigate there. Explain the source restriction and ask for a Naver News link or search term covering the same story instead.
 - **User only wants the scrape, no report**: stop after step 2; don't build documents nobody asked for.
 - **Single article vs. many**: the pipeline is the same either way, but for a single article `add_section_slide`/multiple docx headings are usually overkill — one content slide and one docx section is enough; use judgment on scale.
 - **User wants the screenshots embedded in the docx**, not just cited: see the note at the end of step 4.
