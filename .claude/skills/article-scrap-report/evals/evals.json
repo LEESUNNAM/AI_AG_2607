@@ -1,0 +1,23 @@
+{
+  "skill_name": "article-scrap-report",
+  "evals": [
+    {
+      "id": 1,
+      "prompt": "https://n.news.naver.com/mnews/article/029/0003041931 이 기사 스크랩해서 분석 보고서로 만들어줘",
+      "expected_output": "output2/playwright/ 밑에 전체화면 스크린샷 저장, output2/reports/ 밑에 기사 요약/분석이 담긴 .docx 보고서 저장. 출처(매체명, URL) 명시.",
+      "files": []
+    },
+    {
+      "id": 2,
+      "prompt": "네이버 뉴스 IT/과학 탭에서 오늘자 AI 관련 기사 3개 스크랩해서 발표자료로 정리해줘",
+      "expected_output": "기사 3건 각각 스크린샷 저장, 기사별 섹션(또는 슬라이드)로 구성된 .pptx 덱 — 제목 슬라이드, 기사별 요약/스크린샷 슬라이드, 종합 슬라이드 포함.",
+      "files": []
+    },
+    {
+      "id": 3,
+      "prompt": "방금 스크랩한 이 기사 내용으로 보고서랑 PPT 둘 다 만들어줘",
+      "expected_output": "같은 세션에서 이미 스크랩한 기사(재탐색 없이)를 바탕으로 .docx 보고서와 .pptx 덱을 모두 생성, output2/reports/ 밑에 저장.",
+      "files": []
+    }
+  ]
+}
