@@ -23,3 +23,4 @@ When code is added to this project, update this file with:
 - When the user's requested task is complete, push the changes to the connected git repository.
 - Connected git repository: https://github.com/LEESUNNAM/AI_AG_2607
 - Before starting any task the user requests, first create a todo list and present it to the user, then proceed.
+- Any output produced using the playwright MCP (screenshots, exported files, etc.) must be organized into the `output2/playwright` folder.
