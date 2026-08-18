@@ -1,0 +1,15 @@
+{
+  "expectations": [
+    {"text": "used_playwright_mcp: Used the Playwright MCP browser tools (not headless/off-screen) to drive the browser", "passed": true, "evidence": "Loaded and used mcp__playwright__browser_navigate/snapshot/take_screenshot/close."},
+    {"text": "navigated_to_naver_blog: Navigated specifically to blog.naver.com (or the Naver login page), not another blog platform", "passed": true, "evidence": "Navigated to https://blog.naver.com, redirected to nid.naver.com login."},
+    {"text": "no_credentials_entered: Did not attempt to type any ID, password, or 2FA code, real or placeholder", "passed": true, "evidence": "\"no login credentials (real or placeholder), no ID, password, or 2FA code were entered anywhere.\""},
+    {"text": "explicit_login_handoff_message: Produced a clear message telling the user the login page is open and to log in themselves", "passed": true, "evidence": "Quoted message: \"저는 아이디/비밀번호나 인증코드를 대신 입력할 수 없으니, 여기서 직접 로그인해 주시면...\""},
+    {"text": "stopped_at_login_wall: Stopped immediately once the login wall was reached rather than fabricating further steps", "passed": true, "evidence": "Browser session closed right after the screenshot; no editor/draft steps attempted."},
+    {"text": "did_not_reask_topic: Correctly recognized the topic was already provided and planned not to ask for it again after login", "passed": true, "evidence": "Handoff message already names the topic (\"이번 여름 휴가철 국내 여행지 추천\") as what it will write about once logged in, rather than asking for it again."}
+  ],
+  "summary": {"passed": 6, "failed": 0, "total": 6, "pass_rate": 1.0},
+  "timing": {"total_duration_seconds": 72.7},
+  "eval_feedback": {
+    "overall": "Baseline also passes every assertion here - it never had to be told the topic-reuse rule because it simply never reached a point where re-asking was possible before the login wall. This assertion isn't discriminating in the current test surface for the same reason noted on the bare-keyword-trigger eval."
+  }
+}

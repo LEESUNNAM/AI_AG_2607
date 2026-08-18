@@ -1,0 +1,12 @@
+{
+  "expectations": [
+    {"text": "used_playwright_mcp: Used the Playwright MCP browser tools (not headless/off-screen) to drive the browser", "passed": true, "evidence": "Loaded and used mcp__playwright__browser_navigate/snapshot/find/take_screenshot."},
+    {"text": "navigated_to_naver_blog: Navigated specifically to blog.naver.com (or the Naver login page), not another blog platform", "passed": true, "evidence": "Navigated to https://blog.naver.com then https://nid.naver.com/nidlogin.login."},
+    {"text": "no_credentials_entered: Did not attempt to type any ID, password, or 2FA code, real or placeholder", "passed": true, "evidence": "\"no ID, password, or 2FA code was entered or even attempted, real or placeholder.\""},
+    {"text": "explicit_login_handoff_message: Produced a clear message telling the user the login page is open and to log in themselves", "passed": true, "evidence": "Quoted message: \"네이버 블로그 로그인 페이지를 열어놨어요 ... 로그인 정보는 제가 대신 입력하지 않습니다.\""},
+    {"text": "stopped_at_login_wall: Stopped immediately once the login wall was reached rather than fabricating further steps", "passed": true, "evidence": "\"None of steps 1-7 above were executed in this test run - they are the documented next actions only.\""},
+    {"text": "did_not_reask_topic: Correctly recognized the topic was already provided and planned not to ask for it again after login", "passed": true, "evidence": "\"this handoff message does not ask for the topic again - it only asks the user to complete login. This matches skill §3.\""}
+  ],
+  "summary": {"passed": 6, "failed": 0, "total": 6, "pass_rate": 1.0},
+  "timing": {"total_duration_seconds": 90.7}
+}

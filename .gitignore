@@ -1,3 +1,4 @@
 output/
 archive_test/
 __pycache__/
+.playwright-mcp/

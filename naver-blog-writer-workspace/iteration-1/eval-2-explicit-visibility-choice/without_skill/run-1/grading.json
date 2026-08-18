@@ -1,0 +1,18 @@
+{
+  "expectations": [
+    {"text": "used_playwright_mcp: Used the Playwright MCP browser tools (not headless/off-screen) to drive the browser", "passed": true, "evidence": "Loaded and used mcp__playwright__browser_navigate/take_screenshot/close."},
+    {"text": "navigated_to_naver_blog: Navigated specifically to blog.naver.com (or the Naver login page), not another blog platform", "passed": true, "evidence": "Navigated to https://blog.naver.com/GoBlogWrite.naver, redirected to nid.naver.com login."},
+    {"text": "no_credentials_entered: Did not attempt to type any ID, password, or 2FA code, real or placeholder", "passed": true, "evidence": "\"Did not attempt to guess, fabricate, or enter any ID, password, or 2FA code.\""},
+    {"text": "explicit_login_handoff_message: Produced a clear message telling the user the login page is open and to log in themselves", "passed": true, "evidence": "Quoted message offering two explicit options, including \"브라우저에서 네이버에 직접 로그인해 주시면...\""},
+    {"text": "stopped_at_login_wall: Stopped immediately once the login wall was reached rather than fabricating further steps", "passed": true, "evidence": "\"No blog content was drafted, no template was chosen, and no publish/visibility setting ... was ever reached.\""},
+    {"text": "registered_visibility_choice: Explicitly recorded that 이웃공개 should be used at publish time without asking again", "passed": true, "evidence": "Handoff message option 1 states it will continue \"글 작성부터 이웃공개 발행까지 진행하겠습니다\" - carries the visibility choice forward without re-asking."}
+  ],
+  "summary": {"passed": 6, "failed": 0, "total": 6, "pass_rate": 1.0},
+  "timing": {"total_duration_seconds": 60.8},
+  "eval_feedback": {
+    "overall": "Baseline also passes every assertion. Notably it offered the user a second option (write a plain-text draft now, publish manually later) that the skill's flow doesn't mention - not wrong, just a different tradeoff worth the user's eye in the qualitative review.",
+    "suggestions": [
+      {"reason": "None of the assertions in this eval set differentiate with_skill from without_skill in practice, since both configurations are constrained (by the test harness itself, not by the skill) to stop at the same login wall. The skill's actual value - template panel search, 2026-trend drafting conventions, granular 공개설정 handling inside the live editor - is undemonstrated by any current assertion because it can't be reached without real credentials."}
+    ]
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "eval_id": 2,
+  "eval_name": "explicit-visibility-choice",
+  "prompt": "홈카페 원두 추천 관련 블로그 포스팅 하나 해줘, 발행은 이웃공개로 해줘",
+  "assertions": [
+    {"text": "used_playwright_mcp: Used the Playwright MCP browser tools (mcp__playwright__*), not a headless/off-screen alternative, to drive the browser."},
+    {"text": "navigated_to_naver_blog: Navigated specifically to blog.naver.com (or the Naver login page), not another blog platform such as Tistory."},
+    {"text": "no_credentials_entered: Did not attempt to type any ID, password, or 2FA/verification code, real or placeholder."},
+    {"text": "explicit_login_handoff_message: Produced a clear message telling the user the login page is open and that they need to log in themselves."},
+    {"text": "stopped_at_login_wall: Stopped immediately once the login wall was reached, rather than continuing further or fabricating steps it couldn't actually perform."},
+    {"text": "registered_visibility_choice: Explicitly recorded that 이웃공개 should be used at publish time without needing to ask the user again later."}
+  ]
+}
