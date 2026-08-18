@@ -1,0 +1,328 @@
+Airbnb (에어비앤비) 기업 조사 보고서
+작성일: 2026-08-18
+작성 방식: 공식 IR/SEC 공시자료 및 신뢰할 수 있는 언론사(로이터 계열 보도 포함) 교차검증
+
+====================================================================
+1. 회사 개요
+====================================================================
+
+- 회사명: Airbnb, Inc. (나스닥 상장코드: ABNB)
+- 창업 아이디어 시작: 2007년, Brian Chesky와 Joe Gebbia가 로드아일랜드 디자인스쿨(RISD) 졸업 후
+  샌프란시스코 자택에서 디자인 컨퍼런스 기간 중 에어매트리스를 대여한 것이 계기.
+  (출처: Britannica Money, umbrex.com)
+- 공식 서비스 출시일: 2008년 8월 11일, "AirBed & Breakfast(Airbedandbreakfast.com)"라는 이름으로
+  웹사이트 공식 오픈. 이후 2009년 3월 사명을 "Airbnb"로 변경.
+  (출처: westcoasthomestays.com 종합 자료; 다수의 창업사 관련 자료와 교차 확인됨. 다만 이 항목은
+  1차 출처(SEC 10-K, Airbnb 공식 뉴스룸)로 완전히 재확인하지는 못했으므로 "약 2007~2008년 설립"으로
+  이해하는 것이 안전함 — 아래 "불확실하거나 상충되는 정보" 참고)
+- 공동창업자: Brian Chesky, Joe Gebbia, Nathan Blecharczyk (Blecharczyk는 2008년 2월 합류)
+- 본사 위치: 미국 캘리포니아주 샌프란시스코 (San Francisco, California)
+  (출처: SEC 10-K FY2024, Forbes Companies 프로필)
+- 사업 모델: 숙박·체험 예약을 위한 온라인 마켓플레이스(플랫폼) 사업자. 부동산을 직접 소유하지 않는
+  "자산 경량(asset-light)" 모델로, 호스트와 게스트를 온라인/모바일로 연결하고 예약, 결제, 신뢰·안전
+  기능, 리뷰, 고객지원 등을 제공. 예약이 성사될 때 발생하는 서비스 수수료가 주요 수익원.
+  (출처: SEC 10-K FY2024 요약, umbrex.com)
+- 상장 여부: 2020년 12월 10일 나스닥(NASDAQ)에 "ABNB" 티커로 상장.
+  (출처: Forge Global IPO 자료, 다수 언론 보도)
+
+====================================================================
+2. 연혁 및 주요 이정표
+====================================================================
+
+- 2007년: Brian Chesky·Joe Gebbia, 샌프란시스코 자택에서 에어매트리스 대여 아이디어 착안
+  (출처: Britannica Money)
+- 2008년 2월: Nathan Blecharczyk 3번째 공동창업자로 합류
+  (출처: westcoasthomestays.com 종합, 교차확인 다수)
+- 2008년 8월 11일: "Airbedandbreakfast.com" 서비스 공식 출시
+  (출처: westcoasthomestays.com 종합)
+- 2009년 1월: 스타트업 액셀러레이터 Y Combinator 참가, 시드 투자(2만 달러, 지분 6%) 유치
+  (출처: news.crunchbase.com 종합)
+- 2009년 3월: 사명을 "Airbnb"로 변경, 이용자 수 1만 명 돌파
+  (출처: westcoasthomestays.com 종합)
+- 2009년: Sequoia Capital으로부터 60만 달러 규모 시드 투자 유치
+  (출처: news.crunchbase.com 종합)
+- 2011~2016년: 기업가치가 2011년 10억 달러 → 2014년 100억 달러 → 2016년 300억 달러 이상으로 급성장
+  (출처: 투자 관련 보도 종합, forgeglobal.com)
+- 2020년 5월 5일: 코로나19 팬데믹으로 전 세계 여행 급감(예약 70% 이상 감소)에 따라 직원 약 1,900명
+  (전체 인력의 약 25%) 감원 발표
+  (출처: Forbes, CNBC, CBS News, NPR, 2020년 5월 5일 보도)
+- 2020년 8월: 코로나19 위기 속에서 나스닥 상장(IPO) 신청서(S-1) 제출
+  (출처: forgeglobal.com, rentalscaleup.com)
+- 2020년 12월 10일: 나스닥 상장. 공모가 68달러로 35억 달러 조달, 상장 첫날 시초가 146달러(공모가 대비
+  2배 이상)로 시가총액 1,000억 달러 이상 기록. 2020년 미국 최대 IPO 중 하나.
+  (출처: Forge Global, Aswath Damodaran(NYU 스턴) 분석 블로그, 다수 언론 보도)
+- 2022~2025년: "Airbnb Categories"(테마별 카테고리) 도입 등 홈 검색 기능 개편
+  (출처: PhocusWire, Fast Company 종합 보도)
+- 2025년 5월: "Airbnb Services"(셰프·퍼스널트레이너·스파 등 온디맨드 서비스) 신규 출시 및
+  2년간 중단됐던 "Airbnb Experiences(체험)"를 새로운 앱 디자인과 함께 재출시. History & Culture,
+  Food & Drink, Nature & Outdoors, Art & Design, Fitness & Wellness 등 5개 신규 카테고리 도입,
+  유명인이 진행하는 "Airbnb Originals" 신설
+  (출처: Fast Company, Skift, Arival, boutiquehotelnews.com)
+- 2025년 9월: 스페인 소비자보호부(Ministry of Consumer Affairs), 무허가 숙소 광고 혐의로 Airbnb에
+  대한 과징금을 최초 약 1억1,000만 유로에서 약 6,500만 유로 수준으로 조정
+  (출처: 관련 다수 보도 종합; 최종 확정액은 아래 2025년 12월 항목 참고)
+- 2025년 12월: 스페인 정부, Airbnb에 6,400만 유로(약 7,500만 달러) 최종 과징금 부과. 무허가 등록
+  또는 등록번호 불일치 등 문제가 있는 6만5,000여 개 매물 광고 혐의. Airbnb는 법원에 항소하겠다는
+  입장
+  (출처: Hotel-Online, Planetizen, ShortTermRentalz, PhocusWire, 2025년 12월 보도)
+- 2026년(연중): Brian Chesky, AI를 활용한 개발 생산성 향상을 강조("AI가 코드의 약 60%를 작성")하며
+  "파운더 모드(founder mode)" 경영 방식을 지속 강조
+  (출처: Fortune, 2026년 8월 14일)
+- 2026년: 월드컵(FIFA World Cup) 파트너십을 통해 15만 건 이상의 신규 호스트 매물 확보, 올림픽·
+  투르 드 프랑스 등 대형 이벤트로 "이벤트 전략" 확장 계획 공개
+  (출처: Airbnb 2026년 2분기 실적발표 컨퍼런스콜, The Motley Fool 트랜스크립트, 2026년 8월 13일)
+
+====================================================================
+3. 사업 구조 및 수익 모델
+====================================================================
+
+Airbnb는 크게 아래 네 축으로 사업을 구성하고 있음(2025~2026년 기준 최신 구조):
+
+1) Homes(숙박 공유) - 핵심 사업
+   - 개인 및 프로페셔널 호스트가 등록한 주택, 아파트, 독특한 숙소 등을 게스트에게 연결
+   - 예약 성사 시 호스트와 게스트 양쪽에 서비스 수수료(service fee) 부과가 주 수익원
+   (출처: SEC 10-K FY2024)
+
+2) Experiences(체험) - 2025년 재출시
+   - 현지 호스트가 진행하는 요리, 투어, 워크숍 등 액티비티 예약 서비스
+   - 2025년 재출시 후 650개 이상 도시에서 5개 신규 카테고리로 운영 중이며, 2026년 2분기 기준
+     공급(호스트 수)이 전년 대비 약 80% 증가
+   (출처: Fast Company, Airbnb 2026 Q2 실적, The Motley Fool 트랜스크립트)
+
+3) Services(서비스) - 2025년 신규 출시
+   - 셰프, 퍼스널트레이너, 스파·마사지, 메이크업 아티스트 등 현지 서비스 예약 기능. 2026년에는
+     식료품 배달, 렌터카, 공항 픽업, 수하물 보관, 리조트 데이 패스 등으로 확장
+   (출처: Fast Company, boutiquehotelnews.com, 2026 Q2 실적발표)
+
+4) Originals / Hotels(신규 확장 영역)
+   - 유명인이 진행하는 "Airbnb Originals" 체험 상품
+   - 호텔 예약 기능 확대 중이며, 2026년 2분기 기준 호텔 숙박일수가 홈스테이보다 3배 빠르게 성장
+   (출처: 2026 Q2 실적발표, The Motley Fool 트랜스크립트)
+
+수익 모델 요약:
+- 게스트/호스트 양측에 부과하는 서비스 수수료가 매출의 대부분을 차지 (자산을 직접 보유하지 않는
+  "asset-light" 플랫폼 모델)
+- 결제(Payments), 신뢰·안전 기능, AI 기반 고객지원(2026년 기준 다국어 AI 어시스턴트가 문의의 약
+  45%를 사람 개입 없이 해결) 등 플랫폼 인프라를 자체 구축·운영
+  (출처: 2026 Q2 실적발표, The Motley Fool 트랜스크립트, 2026년 8월 13일)
+
+시장 지위:
+- Skift Research 추정에 따르면 Airbnb의 글로벌 단기 숙박(short-term rental) 시장 점유율은 2019년
+  28%에서 2024년 44%로 상승. (단, 이는 Skift Research라는 단일 조사기관의 추정치이며, 별도의
+  독립적인 2차 검증 출처는 확인하지 못함 — 참고용으로만 활용 권장)
+  (출처: Skift, 2025년 3월 14일)
+
+====================================================================
+4. 재무 현황 (공개된 수치)
+====================================================================
+
+[상장 정보]
+- 나스닥(NASDAQ) 상장, 티커 ABNB. 2020년 12월 10일 상장.
+  (출처: Forge Global, 다수 언론 보도)
+
+[시가총액 / 주가 - 2026년 8월 기준]
+- 2026년 8월 11일 기준 주가 약 184.70달러, 시가총액 약 1,115억 달러(stockanalysis.com 기준)
+- 같은 시기 다른 데이터 제공처(MacroTrends, companiesmarketcap.com 등)에서는 약 900억~1,135억
+  달러 범위로 다소 차이가 있음. 이는 실시간 주가 변동 및 집계 시점 차이에 따른 것으로 보임
+  (출처: stockanalysis.com, MacroTrends, companiesmarketcap.com, tradingeconomics.com - 2026년
+  8월 조회 기준)
+- 최근 1년간 주가는 약 46.6% 상승 (stockanalysis.com 기준)
+
+[FY2024 (2024년 전체) 실적] - 출처: SEC 8-K/10-K 공시 및 news.airbnb.com 보도자료 종합
+- 총매출: 111억 달러 (전년 대비 +12%)
+- 순이익(GAAP 기준): 약 26.5억 달러 (분기별 실적 합산: 1분기 2.64억+2분기 5.55억+3분기 14억
+  +4분기 4.61억 달러 = 약 26.8억 달러로 상호 정합)
+- 4분기(Q4 2024) 매출: 25억 달러 (+12% YoY), 순이익 4.61억 달러(순이익률 19%)
+  (출처: PRNewswire 2025년 2월 13일 보도자료, MacroTrends, news.airbnb.com)
+
+[FY2025 (2025년 전체) 실적] - 2026년 2월 12일 발표
+- 총매출: 122.4억 달러 (전년 대비 +10.26%)
+- 순이익(GAAP 기준): 약 25억 달러 (순이익률 21%)
+- 총예약가치(GBV): 913억 달러 (전년 대비 +12%)
+- 숙박·체험 예약 건수(Nights and Experiences Booked): 5억3,300만 건
+- 전체 연간 잉여현금흐름(Free Cash Flow): 46억 달러 (잉여현금흐름 마진 38%)
+  (출처: rentalscaleup.com 2025년 4분기 실적 분석 기사; SEC 8-K(FY2025) 공시; news.airbnb.com
+  2026년 2월 보도자료 - 교차확인)
+
+[4분기(Q4 2025) 실적]
+- 매출 28억 달러 (+12% YoY, 가이던스 상단 초과)
+- 순이익 3.41억 달러 (일회성 비소득세 항목 약 9,000만 달러 영향으로 감소)
+- GBV 204억 달러 (+16% YoY, 2년여 만의 최고 분기 성장률)
+- 조정 EBITDA 7.86억 달러 (마진 28%)
+  (출처: rentalscaleup.com, The Motley Fool 2026 Q4 어닝콜 트랜스크립트)
+
+[2분기(Q2 2026) 실적] - 2026년 8월 13일 발표
+- 매출 36억 달러 (+17% YoY, 가이던스 상회)
+- 순이익 8.16억 달러 (순이익률 23%, 일회성 세금 혜택 7,700만 달러 포함)
+- GBV 272억 달러 (+16% YoY)
+- 숙박·체험 예약 건수 1억4,830만 건 (+10% YoY)
+- 조정 EBITDA 13억 달러 (마진 35%, +21% YoY)
+- 잉여현금흐름: 분기 13억 달러, 최근 12개월 누적 48억 달러
+- 평균 1박 요금(ADR): 184달러 (+5% YoY)
+- 자사주 매입: 2분기 중 11억 달러, 잔여 매입 한도 34억 달러
+- 2026년 3분기 가이던스: 매출 46.9억~47.7억 달러 (+15~17% YoY)
+- 2026년 연간 가이던스(상향): 매출 성장률 최소 "중간대 10%대(mid-teens)", 조정 EBITDA 마진 최소
+  35.5%로 상향
+  (출처: The Motley Fool, "Airbnb (ABNB) Q2 2026 Earnings Call Transcript", 2026년 8월 13일)
+
+[기타 규모 지표 - Airbnb 뉴스룸 공개 자료 종합 인용]
+- 누적 호스트 수 500만 명 이상, 누적 게스트 도착(guest arrivals) 25억 건 이상
+- 활성 매물(active listings) 900만 개 이상, 220개 이상 국가·지역, 15만 개 이상 도시·타운에서 운영
+- (해당 항목들은 Airbnb 공식 뉴스룸(news.airbnb.com/about-us) 페이지를 직접 인용한 것이나, 접근이
+  차단(403)되어 뉴스룸 원문을 직접 확인하지 못했고, 검색엔진 스니펫을 통해서만 확인함. 참고용으로만
+  활용 권장)
+
+====================================================================
+5. 조직/경영진 정보
+====================================================================
+
+- CEO(최고경영자) 겸 공동창업자: Brian Chesky
+  (출처: investors.airbnb.com 이사회/경영진 소개 페이지, Fortune 2026년 8월 14일 기사)
+- CFO(최고재무책임자): Ellie(Elinor) Mertz
+  - 2024년 3월 CFO로 승진(이전에는 Airbnb 재무 담당 부사장 겸 글로벌 재무기획·분석 총괄)
+  - 2013년 Airbnb 합류 이전에는 2006~2013년 Netflix 재무 부문에서 근무
+  - 2025년 6월, Netflix 이사회 멤버(감사위원회 포함)로 선임됨
+  (출처: CFO Dive, Netflix IR 보도자료 "Ellie Mertz Appointed to Netflix Board of Directors", 2025년,
+  Storyboard18)
+- 공동창업자: Joe Gebbia, Nathan Blecharczyk (경영 일선에서의 현재 구체적 직함은 이번 조사에서
+  신뢰 가능한 1차 출처로 재확인하지 못함 — "확인 불가"로 표시)
+
+====================================================================
+6. 최근 이슈 및 동향 (최근 1~2년, 2025~2026년)
+====================================================================
+
+- [규제 이슈] 스페인 정부의 무허가 숙소 단속 및 과징금
+  - 2025년 7월, 스페인 소비자보호부가 약 1억1,000만 유로 규모 과징금 부과를 예고
+  - 2025년 9월경 약 6,500만 유로 수준으로 조정 논의
+  - 2025년 12월, 최종적으로 6,400만 유로(약 7,500만 달러) 과징금이 확정 부과됨. 6만5,000여 개
+    매물의 무허가/등록정보 불일치 등이 사유이며, Airbnb는 법원에 이의를 제기할 방침
+    (출처: Hotel-Online, Planetizen, ShortTermRentalz, PhocusWire - 2025년 12월 보도, 다수 매체 교차확인)
+
+- [규제 이슈] 로스앤젤레스(LA) 단기임대 규제 논쟁
+  - Airbnb가 LA시에 "일자리 보호"를 명분으로 단기임대 허용 확대를 요청하고 있으나, 노동조합 등
+    이해관계자 사이에서 찬반이 갈리는 상황
+    (출처: LAist, 2025~2026년 보도)
+
+- [사업 전략] AI 및 신사업 확장
+  - 2026년 8월, Brian Chesky가 Fortune 인터뷰에서 "AI가 Airbnb 코드의 약 60%를 작성하고 있다"고
+    언급하며, AI 시대에 "파운더 모드(founder mode)"를 유지하는 것이 핵심 경쟁력이라고 강조
+    (출처: Fortune, 2026년 8월 14일)
+  - 2026년 2분기 실적발표에서 경영진은 AI를 "존재론적 리스크(existential risk)"로도 지목하며,
+    회사가 "AI 네이티브"가 되어야 한다는 입장을 밝힘. 동시에 규제·정책 이슈는 "영원히 관리해야 할
+    과제"로 평가
+    (출처: The Motley Fool 2026 Q2 어닝콜 트랜스크립트, 2026년 8월 13일)
+  - Services(온디맨드 서비스), Experiences(체험) 재출시 이후 공급과 예약이 꾸준히 증가하는 추세이며,
+    호텔 예약 기능도 확장 중
+    (출처: 2026 Q2 실적, Fast Company)
+  - 월드컵 파트너십을 통한 신규 호스트 확보(15만 건 이상) 및 올림픽 등 대형 이벤트 연계 전략 발표
+    (출처: 2026 Q2 실적발표)
+
+- [인력 관련] 2026년 6월 구조조정 관련 보도 - 신뢰도 낮아 미확정 처리
+  - 일부 매체(interviewpal.com 등)에서 "2026년 6월 9일 Airbnb가 구조조정을 발표했다"는 보도가
+    있었으나, 정확한 감원 규모나 비율이 공개되지 않았고, 신뢰할 수 있는 언론사(로이터·블룸버그·AP
+    등)의 1차 보도로 교차검증하지 못함. 오히려 일부 자료(Revelio Labs 등 채용 데이터)에서는 2026년
+    Airbnb의 채용 공고가 오히려 증가했다는 상반된 정보도 확인됨. 따라서 이 항목은 "확인 불가"로
+    처리하며, 확정된 사실로 보고서에 반영하지 않음.
+
+====================================================================
+7. 불확실하거나 상충되는 정보
+====================================================================
+
+1) 창업(설립) 연도: 아이디어 착안은 2007년, 웹사이트 정식 출시 및 회사로서의 실질적 출범은 2008년
+   (2008년 2월 3번째 공동창업자 합류, 2008년 8월 서비스 출시)으로 자료마다 "2007년 설립" 또는
+   "2008년 설립"으로 다르게 표기됨. 이번 조사에서는 Airbnb 공식 뉴스룸 원문에 직접 접근하지 못해
+   (403 차단) 1차 출처로 완전히 확정하지 못했으며, 다수의 2차 자료 종합 결과 "2007년 아이디어 착안,
+   2008년 정식 출시"로 보는 것이 타당함.
+
+2) 시가총액: 2026년 8월 동일 기간 내에서도 조회 시점·데이터 제공처에 따라 약 900억 달러~1,135억
+   달러까지 편차가 있음 (MacroTrends, stockanalysis.com, companiesmarketcap.com,
+   tradingeconomics.com 간 수치 상이). 실시간 주가 변동과 집계 기준일 차이로 추정되며, 단일 확정치로
+   제시하기 어려움.
+
+3) 시장 점유율 44%(2024년) 수치는 Skift Research라는 단일 조사기관의 추정치이며, 별도의 독립적인
+   2차 검증 출처(SEC 공시 등 공식 자료)로는 확인하지 못함. 참고용으로만 활용 권장.
+
+4) 2026년 6월 구조조정(감원) 관련 보도는 출처 신뢰도가 낮아(interviewpal.com 등 저품질 매체 위주,
+   로이터·블룸버그·AP 등 1차 보도 확인 불가) "확인 불가" 처리함. 반대로 채용 확대를 시사하는 자료도
+   존재해 상충됨.
+
+5) Airbnb 뉴스룸(news.airbnb.com)의 "About Us" 공식 패스트팩트 페이지는 접근이 차단(HTTP 403)되어
+   원문을 직접 확인하지 못했고, 검색엔진에 노출된 요약(스니펫)만으로 인용함. 호스트 수, 활성 매물
+   수, 누적 게스트 도착 수 등 규모 지표는 이 점을 감안해 참고용으로 활용 권장.
+
+6) 공동창업자 Joe Gebbia, Nathan Blecharczyk의 2026년 현재 정확한 직함(이사회 역할 등)은 신뢰
+   가능한 1차 출처로 재확인하지 못해 이번 보고서에는 포함하지 않음("확인 불가").
+
+====================================================================
+8. 출처 목록 (매체명 / URL)
+====================================================================
+
+- Britannica Money, "Airbnb | History, Business Model, & Impact"
+  https://www.britannica.com/money/Airbnb
+- SEC EDGAR, Airbnb, Inc. Form 10-K FY2024
+  https://www.sec.gov/Archives/edgar/data/1559720/000155972025000010/abnb-20241231.htm
+- SEC EDGAR, Airbnb, Inc. Form 10-K FY2025
+  https://www.sec.gov/Archives/edgar/data/1559720/000155972026000004/abnb-20251231.htm
+- SEC EDGAR, Airbnb, Inc. Form 10-Q FY2026 (1분기)
+  https://www.sec.gov/Archives/edgar/data/0001559720/000155972026000014/abnb-20260331.htm
+- Forge Global, "Airbnb IPO Timeline and Financing Details"
+  https://forgeglobal.com/airbnb_ipo/
+- Rental Scale-Up (PriceLabs), "Airbnb IPO timeline"
+  https://www.rentalscaleup.com/airbnb-ipo-timeline/
+- Rental Scale-Up (PriceLabs), "Airbnb Q4 2025: Growth Reaccelerates, Control Tightens"
+  https://www.rentalscaleup.com/airbnb-q4-2025-results/
+- Forbes, "Airbnb Lays Off 25% Of Workforce, Nearly 1900 Jobs" (2020년 5월 5일)
+  https://www.forbes.com/sites/rachelsandler/2020/05/05/airbnb-lays-off-25-of-workforce-nearly-1900-jobs/
+- CNBC, "Airbnb to lay off nearly 1900 people, 25% of company" (2020년 5월 5일)
+  https://www.cnbc.com/2020/05/05/airbnb-to-lay-off-nearly-1900-people-25percent-of-company.html
+- CBS News, "Airbnb laying off 1900 workers, 25% of its workforce" (2020년 5월)
+  https://www.cbsnews.com/news/airbnb-layoffs-1900-jobs-25-percent-workforce/
+- NPR, "Airbnb Cuts 1,900 Jobs, 25% Of Its Workforce, As Pandemic Freezes Travel" (2020년 5월 5일)
+  https://www.npr.org/sections/coronavirus-live-updates/2020/05/05/850986054/airbnb-cuts-1-900-jobs-25-of-its-workforce-as-pandemic-freezes-travel
+- PRNewswire, "Airbnb Announces Fourth Quarter and Full Year 2024 Results" (2025년 2월 13일)
+  https://www.prnewswire.com/news-releases/airbnb-announces-fourth-quarter-and-full-year-2024-results-302370264.html
+- MacroTrends, "Airbnb Net Income 2018-2026"
+  https://www.macrotrends.net/stocks/charts/ABNB/airbnb/net-income
+- MacroTrends, "Airbnb Market Cap 2018-2026"
+  https://www.macrotrends.net/stocks/charts/ABNB/airbnb/market-cap
+- stockanalysis.com, "Airbnb (ABNB) Market Cap & Net Worth"
+  https://stockanalysis.com/stocks/abnb/market-cap/
+- companiesmarketcap.com, "Airbnb (ABNB) - Market capitalization"
+  https://companiesmarketcap.com/airbnb/marketcap/
+- The Motley Fool, "Airbnb (ABNB) Q2 2026 Earnings Call Transcript" (2026년 8월 13일)
+  https://www.fool.com/earnings/call-transcripts/2026/08/13/airbnb-abnb-q2-2026-earnings-call-transcript/
+- Fortune, "Airbnb CEO Brian Chesky says AI writes 60% of its code..." (2026년 8월 14일)
+  https://fortune.com/2026/08/14/airbnb-ceo-brian-chesky-founder-mode-ai-writes-60-percent-of-code/
+- CFO Dive, "Netflix taps Airbnb CFO Mertz for board"
+  https://www.cfodive.com/news/netflix-taps-airbnb-cfo-board-seat/751666/
+- Netflix IR, "Ellie Mertz Appointed to Netflix Board of Directors" (2025년)
+  https://ir.netflix.net/investor-news-and-events/financial-releases/press-release-details/2025/Ellie-Mertz-Appointed-to-Netflix-Board-of-Directors-2025-bYlhtQ6XSS/default.aspx
+- Skift, "Short-Term Rentals: Airbnb's Dominance and Booking's Gains in 1 Chart" (2025년 3월 14일)
+  https://skift.com/2025/03/14/short-term-rentals-airbnbs-dominance-and-bookings-gains-in-1-chart/
+- Fast Company, "Airbnb goes all in on services and experiences with a new redesign"
+  https://www.fastcompany.com/91334019/airbnb-new-strategy-experiences-services
+- Hotel-Online, "Spain Fines Airbnb $75 Million for Listings of Unlicensed Rentals" (2025년 12월)
+  https://www.hotel-online.com/news/spain-fines-airbnb-75-million-for-listings-of-unlicensed-rentals
+- Planetizen, "Spain Fines Airbnb $75 Million After Crackdown on Unlicensed Rentals" (2025년 12월)
+  https://www.planetizen.com/news/2025/12/136564-spain-fines-airbnb-75-million-after-crackdown-unlicensed-rentals
+- ShortTermRentalz, "Spain fines Airbnb €64 million over unlicensed listings"
+  https://shorttermrentalz.com/news/spain-fines-airbnb-e64-million-over-unlicensed-short-term-rental-listings/
+- PhocusWire, "Spain slaps Airbnb with €64 million fine"
+  https://www.phocuswire.com/spain-airbnb-fine-64-million-advertising-unlicensed-strs
+- LAist, "Airbnb wants LA to allow more short-term rentals to 'protect jobs,' but unions are split"
+  https://laist.com/news/housing-homelessness/airbnb-pushes-more-short-term-rentals-los-angeles-unions-split
+- news.crunchbase.com, "Travel & tourism Venture" (Airbnb 초기 투자 연혁 관련)
+  https://news.crunchbase.com/?p=38445
+- Aswath Damodaran (NYU Stern), "Musings on Markets: The Sharing Economy come home: The IPO of Airbnb!"
+  https://aswathdamodaran.blogspot.com/2020/12/the-sharing-economy-come-home-ipo-of.html
+- Forbes Companies, "AirBnB | ABNB Stock Price, Company Overview & News"
+  https://www.forbes.com/companies/airbnb/
+- umbrex.com, "Airbnb Strategy and Business Model"
+  https://umbrex.com/resources/company-profiles/airbnb/
+- westcoasthomestays.com, "When Did Airbnb Launch? Full Founding Story & Timeline" (보조적 참고,
+  창업 연혁 교차확인용)
+  https://www.westcoasthomestays.com/post/when-did-airbnb-launch
+
+참고: news.airbnb.com(Airbnb 공식 뉴스룸)의 개별 보도자료 및 About Us 페이지는 자동화된 접근이
+차단(HTTP 403)되어 원문 전체를 직접 열람하지 못했으며, 검색엔진에 노출된 요약 정보만 보조적으로
+활용했습니다. 위키피디아는 이번 조사에서 1차 출처로 사용하지 않았습니다.
