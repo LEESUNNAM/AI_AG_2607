@@ -1,0 +1,133 @@
+Airbnb (기업) 조사 요약
+작성: 조사관 서브에이전트 (.claude/agents/조사관.md)
+※ 공인된 자료(공식 사이트/공시자료, 주요 언론사, 공신력 있는 참고자료)만 사용. 출처가 불분명한 자료는 배제함.
+
+개요
+Airbnb, Inc.(나스닥: ABNB)는 2008년 브라이언 체스키(Brian Chesky), 조 게비아(Joe Gebbia),
+네이선 블레차르치크(Nathan Blecharczyk)가 미국 샌프란시스코에서 설립한 온라인 숙박·여행
+플랫폼 기업이다. 개인의 주거 공간(방, 아파트, 주택 등)을 여행객에게 단기로 연결해주는
+P2P 중개 플랫폼으로 시작해, 현재는 숙박(Homes) 외에 체험(Experiences), 서비스(Services),
+호텔 예약, 렌터카 등으로 사업을 확장하며 "여행의 아마존"을 지향하는 종합 여행 플랫폼으로
+진화하고 있다. 2020년 12월 나스닥에 상장했으며, 2026년 8월 기준 시가총액은 약 1,100억
+달러 수준이다.
+
+핵심 내용
+
+[회사 개요]
+- 공식 명칭: Airbnb, Inc. / 본사: 미국 캘리포니아주 샌프란시스코 (888 Brannan St)
+  — 출처: SEC EDGAR 기업정보
+- 창업자: 브라이언 체스키(CEO 겸직), 조 게비아, 네이선 블레차르치크
+  — 출처: Britannica Money
+- 미션: "누구나 어디에서든 소속감을 느낄 수 있는 세상 만들기(create a world where anyone
+  can belong anywhere)" — 출처: Airbnb 공식 뉴스룸(news.airbnb.com/about-us)
+- 임직원 수: 2025년 말 기준 약 8,200명, 2026년 3월 기준 약 8,700명
+  — 출처: SEC 10-Q(2026)
+
+[연혁]
+- 2007년: 체스키·게비아가 샌프란시스코 자택에서 에어매트리스를 대여한 것이 시초
+  — 출처: Britannica Money
+- 2008년: "AirBed & Breakfast" 웹사이트 출범, 이후 "Airbnb"로 사명 축약
+  — 출처: Britannica Money
+- 2020년 12월 10일: 나스닥 상장(IPO), 공모가 주당 68달러, 상장 첫날 종가 기준 시총 약
+  1,000억 달러로 급등 — 출처: CNBC, Airbnb Investor Relations 보도자료
+- 2025년 5월: "Summer Release"로 앱 구조를 Homes·Experiences·Services 3개 탭으로
+  재편, 개인 셰프·마사지·사진작가 등 "서비스" 카테고리 신설 — 출처: TechCrunch
+- 2026년 5월 20일: 독립 부티크 호텔 예약(20개 도시, 뉴욕·파리·런던·마드리드·로마·싱가포르
+  등) 및 렌터카(2026년 여름 출시 예정) 사업 진출 공식 발표, 호스트 온보딩·리뷰 요약·
+  고객지원용 AI 기능 확대 — 출처: CNBC, TechCrunch
+
+[사업모델]
+- 호스트와 게스트를 연결하는 온라인 마켓플레이스로, 예약 시 수수료를 부과하는 구조
+  (구체적 요율은 아래 "불확실하거나 상충되는 정보" 참조)
+- 2025~2026년 사업 확장 축: Experiences(체험), Services(서비스), 호텔, 차량 렌트,
+  식료품 배달, 짐 보관(1만 5천여 개소) 등으로 "여행 슈퍼앱" 전략 추진
+  — 출처: TechCrunch, CNBC
+- 고객지원 챗봇이 11개 언어로 전체 문의의 약 40%를 사람 개입 없이 처리, 예약당
+  고객지원 비용 전년 대비 약 16% 감소 — 출처: TechCrunch(회사 발표 인용)
+
+주요 수치/사실 (모두 출처 병기)
+- 2025 회계연도 매출: 122.4억 달러 (전년 대비 +10%)
+  — Airbnb Q4 2025 실적발표(news.airbnb.com), SEC 8-K
+- 2025 회계연도 순이익: 25.1억 달러 (전년 26.5억 달러 대비 -5%)
+  — Airbnb Q4 2025 실적발표
+- 2025년 총예약가치(GBV): 913억 달러 (+12% YoY) — Airbnb Q4 2025 실적발표
+- 2025년 숙박+체험 예약 건수(Nights & Experiences Booked): 5억 3,300만 건 (+8% YoY)
+  — Airbnb Q4 2025 실적발표
+- 2025년 조정 EBITDA: 43억 달러(마진 35%) — Airbnb Q4 2025 실적발표
+- 2025년 잉여현금흐름: 46억 달러(마진 38%) — Airbnb Q4 2025 실적발표
+- 2025년 말 현금성자산: 110억 달러 — Airbnb Q4 2025 실적발표
+- Q4 2025 매출: 27.8억 달러 (+12% YoY), GAAP 순이익 3.41억 달러
+  — Airbnb Q4 2025 실적발표, SEC 8-K
+- Q2 2026 매출: 36.1억 달러 (+17% YoY), 순이익 8.16억 달러
+  — Airbnb 투자자 관계 사이트(investors.airbnb.com) 기반 보도(Yahoo Finance/Investing.com)
+- Q2 2026 GBV: 272억 달러 (+16% YoY) — 상동
+- 2026년 연간 매출 성장률 가이던스: 최소 mid-teens(약 15%대)로 상향
+  — Airbnb Q2 2026 실적발표
+- 호스트 수: 약 550만 명 — Airbnb 공식 발표(news.airbnb.com/about-us 기반 보도)
+- 누적 게스트 도착 수: 약 25억 건 이상 — 상동
+- 등록 리스팅 수: 약 800만~950만 건(자료별 상이, 정확한 공식 수치 미확인 — 아래 참조)
+- 글로벌 단기임대(STR) 시장 점유율: 2024년 기준 약 44% (2019년 28%에서 상승)
+  — Skift 보도(업계 데이터 인용)
+- IPO 공모가 / 상장일: 주당 68달러 / 2020년 12월 10일 (나스닥, ABNB)
+  — CNBC, Airbnb Investor Relations 보도자료
+- 2026년 8월 기준 시가총액: 약 1,100억~1,135억 달러 — 시장 데이터 제공처 취합
+- 직원 수: 2025년 말 약 8,200명 / 2026년 3월 약 8,700명 — SEC 10-Q(2026) 기반 보도
+
+불확실하거나 상충되는 정보
+- 리스팅(매물) 수: 자료마다 "800만 개 이상", "950만 개" 등 수치가 다르게 인용됨.
+  Airbnb가 정기적으로 정확한 리스팅 수를 공시하지 않아, 정확한 공인 수치는 회사의
+  최신 10-K/투자자 자료 원문 확인이 필요함. 본 조사에서는 SEC 10-K 원문 직접 접근이
+  차단(403)되어 검색 스니펫에 의존했으므로 추가 확인이 필요함.
+- 수수료 구조(호스트/게스트 부담 비율): 업계 분석 매체의 설명이며, Airbnb 공식 고객센터
+  페이지 원문을 직접 대조하지 못해 본 요약의 "핵심 내용"에서는 구체 수치를 생략함.
+- 호텔·렌터카 사업 확장의 재무적 성과: 2026년 5월 발표된 신사업은 아직 출시 초기
+  단계로, 관련 성장률 수치는 회사 측 실적발표 콜 발언에 근거하며 독립적인 제3자 검증은
+  아직 부족함.
+- 2026년 6월 구조조정(감원) 관련: 출처 신뢰도가 확인되지 않는 매체에서만 언급되어,
+  본 요약에서는 감원 규모·시점에 대한 수치를 포함하지 않음(공인 자료 없음).
+
+출처
+
+[공식 사이트 / 공시자료 (Airbnb 및 SEC)]
+- Airbnb Investor Relations – Home (공식 투자자 관계 사이트)
+  https://investors.airbnb.com/home/default.aspx
+- Airbnb Announces First Quarter 2026 Results (공식 보도자료)
+  https://investors.airbnb.com/press-releases/news-details/2026/Airbnb-Announces-First-Quarter-2026-Results/default.aspx
+- Airbnb Announces Fourth Quarter and Full Year 2025 Results (공식 보도자료)
+  https://investors.airbnb.com/press-releases/news-details/2026/Airbnb-Announces-Fourth-Quarter-and-Full-Year-2025-Results/default.aspx
+- Airbnb Q4 2025 financial results (공식 뉴스룸)
+  https://news.airbnb.com/airbnb-q4-2025-financial-results/
+- Airbnb, Inc. Form 10-K FY2025 (미국 증권거래위원회 SEC EDGAR 공시자료)
+  https://www.sec.gov/Archives/edgar/data/1559720/000155972026000004/abnb-20251231.htm
+- Airbnb, Inc. Form 8-K FY2025 exhibit (SEC EDGAR 공시자료)
+  https://www.sec.gov/Archives/edgar/data/1559720/000119312525174438/d17531dex991.htm
+- Airbnb Announces Pricing of Initial Public Offering (공식 보도자료)
+  https://investors.airbnb.com/press-releases/news-details/2020/Airbnb-Announces-Pricing-of-Initial-Public-Offering/default.aspx
+- Airbnb, Inc. Form 10-Q FY2026 (직원 수 관련, SEC EDGAR)
+  https://www.sec.gov/Archives/edgar/data/0001559720/000155972026000014/abnb-20260331.htm
+
+[주요 언론사]
+- Airbnb IPO: ABNB starts trading on the Nasdaq – CNBC
+  https://www.cnbc.com/2020/12/10/airbnb-ipo-abnb-starts-trading-on-the-nasdaq.html
+- Airbnb adds hotels, car rentals and AI features in latest expansion – CNBC
+  https://www.cnbc.com/2026/05/20/airbnb-hotels-car-rentals-ai-rentals.html
+- Airbnb gets into hotels, expands AI for host onboarding and customer support – TechCrunch
+  https://techcrunch.com/2026/05/20/airbnb-gets-into-hotels-expands-ai-for-host-onboarding-and-customer-support/
+- Q4 Airbnb (ABNB) earnings 2025 – CNBC
+  https://www.cnbc.com/2026/02/12/q4-airbnb-abnb-earnings-2025.html
+- Short-Term Rentals: Airbnb's Dominance and Booking's Gains in 1 Chart – Skift
+  https://skift.com/2025/03/14/short-term-rentals-airbnbs-dominance-and-bookings-gains-in-1-chart/
+- Airbnb's IPO: 6 key things to know – Fortune
+  https://fortune.com/2020/12/09/airbnb-ipo-share-price-covid-revenue-profit-2020-brian-chesky-abnb-nasdaq/
+
+[백과사전 / 공신력 있는 참고자료]
+- Airbnb | History, Business Model, & Impact – Britannica Money
+  https://www.britannica.com/money/Airbnb
+
+[참고 (시장 데이터 취합, 원자료 대조 권장)]
+- Airbnb (ABNB) Market Cap – StockAnalysis.com
+  https://stockanalysis.com/stocks/abnb/market-cap/
+
+비고: SEC EDGAR 원문 페이지와 news.airbnb.com 일부 페이지는 자동화 접근이 차단(403)되어
+검색엔진이 제공한 발췌 스니펫을 근거로 인용한 항목이 있습니다. 리스팅 수 등 일부 수치를
+완전히 확정하려면 해당 공식 페이지를 브라우저로 직접 확인하는 것을 권장합니다.
