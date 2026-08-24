@@ -1,5 +1,19 @@
 {
   "env": {
     "CLAUDE_CODE_DISABLE_AGENT_VIEW": "0"
+  },
+  "hooks": {
+    "Stop": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "python \"${CLAUDE_PROJECT_DIR}/.claude/hooks/typecast_stop_hook.py\"",
+            "timeout": 30,
+            "statusMessage": "타입캐스트 음성 재생 중..."
+          }
+        ]
+      }
+    ]
   }
 }
