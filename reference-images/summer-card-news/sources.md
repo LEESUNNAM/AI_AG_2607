@@ -1,0 +1,15 @@
+# Reference Images — Summer (여름) Card News, "Cool Heat" Concept
+
+Sourced from Pinterest per request, matched to the design concept in [`design-concept/summer-card-news/en/summer_card_news_design_concept.md`](../../design-concept/summer-card-news/en/summer_card_news_design_concept.md) ("Cool Heat" — Poolside Blue/Concrete calm vs. Chartreuse/Sunset Blaze heat, hand-drawn/vintage illustration over glossy 3D or generic tropical stock).
+
+| Filename | Source (Pinterest pin) | Why it was picked |
+|---|---|---|
+| `01_ocean-calm-color-palette.jpg` | [Ocean Calm Color Palette](https://www.pinterest.com/pin/ocean-calm-color-palette-sunset-color-palette-summer-color-palette-beach--68745696501/) | Demonstrates the same cool/warm contrast structure the concept is built on (slate-blue/grey tones against dusty pink/peach) — a palette-contrast reference, not a literal hex match to the concept's Poolside Blue/Sunset Blaze pairing. |
+| `02_summer-instagram-feed-blue-orange-layout.jpg` | [Summer Instagram Feed Layout - Blue and Orange](https://in.pinterest.com/pin/summer-instagram-feed-layout-blue-and-orange--1030620695954275661/) | A cohesive Instagram grid mixing turquoise/ocean blue with warm orange/citrus accents and consistent margins across tiles — supports the concept's "same accent system running through every frame" layout principle. |
+| `03_summer-carousel-moodboard-template.jpg` | [Summer Moodboard Instagram Carousel Template PSD](https://www.pinterest.com/pin/summer-moodboard-instagram-carousel-template-psd--719520477996458926/) | A real seamless-carousel product template at 1080×1080, explicitly built as one continuous visual across 3 slides — directly validates the concept's "seamless panoramic carousel" cross-frame consistency approach (logo/label placement repeated identically per slide). |
+| `04_sun-and-waves-illustration.jpg` | [Sun & Waves](https://www.pinterest.com/pin/sun-waves--631559547759800419/) | Clean sun + wave line-icon motif in warm yellow/orange and teal — reference for the concept's Frame 1/Frame 3 icon and motif style (simple, line-based, single-accent-color fills). |
+| `05_hand-drawn-citrus-illustration.jpg` | [Hand Drawn Natural Fresh Oranges Illustration](https://www.pinterest.com/pin/download-premium-png-of-hand-drawn-natural-fresh-oranges-illustration-about-citrus-fruit-vintage-illustra--361906520066744811/) | Vintage botanical-illustration style citrus motif — matches the concept's "slightly retro, hand-crafted illustration over glossy 3D render" direction (drawn from the Red Velvet "Velvet Summer" reference in the design-concept doc). |
+
+## License note
+
+These are Pinterest-sourced images collected for internal design/mood-board reference only. Pinterest re-hosts images from many original creators and platforms, and licensing is generally **not cleared for reuse** — before using any of these visuals (or elements derived from them) in the actual shipped 카드뉴스, verify the original source/license, or use them purely as directional inspiration and build final assets from scratch or from licensed stock (Unsplash/Pexels).
