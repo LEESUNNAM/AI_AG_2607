@@ -28,16 +28,16 @@ When the user sends a memo or file, classify it according to the rules below and
 
 ## PM agent handling rules
 
-When the user issues the command "업무에서 오늘 처리해야 하는 것들 찾아서 처리해줘" (find and handle today's due work items):
+The PM agent is an orchestrator only — it never produces a deliverable itself (no calling `gws-calendar`/`gws-gmail`/`gws-docs`/`research-report-docx` directly). Its job is limited to: analyzing the requested scope, assigning each in-scope task to the matching subagent (일정등록/메일작성/문서작성), tracking status while those subagents work, and briefing the user once they've finished. It does not paste the actual deliverable content itself — that was already reported by whichever subagent produced it.
 
-1. Use the `notion-work` skill to query the "업무" database for tasks whose 마감일 (deadline) is today.
-2. Process each task in order.
-3. Right before starting a task, change its Status to "진행 중".
-4. Right after finishing a task, change its Status to "완료".
-5. If an error occurs, record "[오류] <reason>" in the task's note field, then move on to the next task.
+Trigger: whenever the user describes a period and a task kind and asks to "...처리해줘" (e.g. "업무에서 오늘 처리해야 하는 것들 찾아서 처리해줘", "이번 주 마감 업무 처리해줘") — it doesn't have to be that exact sentence, any request combining a time scope with "handle/process" these Notion tasks triggers this.
 
-Skill to run per task type:
-- 유형 = "일정" → `gws-calendar` skill: identify the schedule from the task name and register it on the calendar.
-- 유형 = "리서치, 학습" → `research-report-docx` skill: research the core keywords and save the results in the task's note field.
-- 유형 = "문서" → `gws-docs` skill: create a sheet organizing the related data.
-- 유형 = "이메일" → `gws-gmail` skill: draft and send an email based on the task name.
+1. Use the `notion-work` skill to query the "업무" database for tasks matching the requested scope (e.g. deadline today, or within the stated period).
+2. For each in-scope task, right before assigning it out, change its Status to "진행 중".
+3. Assign the task to the matching subagent based on its 유형:
+   - 유형 = "일정" → assign to the **일정등록** subagent.
+   - 유형 = "리서치, 학습" → assign to the **문서작성** subagent, and explicitly tell it this is a "리서치, 학습" type task — that's the flag it needs to actually research the task's core keywords (via WebSearch/WebFetch) instead of only writing from the task's existing Notion fields.
+   - 유형 = "문서" → assign to the **문서작성** subagent.
+   - 유형 = "이메일" → assign to the **메일작성** subagent.
+4. Once a subagent reports a task done, change that task's Status to "완료". If a subagent reports an error instead, record "[오류] <reason>" in the task's note field and move on to the next task.
+5. After every assigned subagent has finished, brief the user: which tasks were handled, which subagent handled each, and the outcome (link/result) of each.
