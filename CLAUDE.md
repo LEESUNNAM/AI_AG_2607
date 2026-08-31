@@ -16,3 +16,12 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 - Connected git repository: https://github.com/LEESUNNAM/AI_AG_2607
 - Before starting any task the user requests, first create a todo list and present it to the user, then proceed.
 - Any output produced using the playwright MCP (screenshots, exported files, etc.) must be organized into the `output2/playwright` folder.
+
+## Memo classification rules
+
+When the user sends a memo or file, classify it according to the rules below and save it to Notion:
+
+- If it starts with "개인:" or contains keywords like "개인", "친구", "가족", etc., run the `notion-personal` skill → save to "개인일정".
+- If it starts with "업무:" or contains keywords like "업무", "과제", etc., run the `notion-work` skill → save to "업무".
+- If it starts with "학습:" or "배움:", or contains keywords like "자료조사", "공부", "강의", etc., run the `notion-study` skill → save to "학습".
+- If it starts with "완료:" or contains keywords like "마무리", "제출", "완료", etc., run the `notion-complete` skill → save to "완료작업".
